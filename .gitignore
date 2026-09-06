@@ -1,0 +1,5 @@
+*.pem
+.env
+__pycache__/
+*.log
+.DS_Store
