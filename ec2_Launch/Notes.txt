@@ -1,0 +1,15 @@
+We use Ubuntu on EC2 because Ubuntu is the operating system that lets the virtual server run commands and host our application.
+
+“Ubuntu configuration” means setting up that server: installing Python, adding the app files, and starting the web app.
+
+An EC2 instance type decides how much computing power a virtual server has: mainly its CPU and memory (RAM).
+
+Think of it like choosing a laptop model. Ubuntu is the operating system; the instance type determines the hardware available to run it.
+
+
+A key pair lets you log in securely to your Ubuntu EC2 instance using SSH:
+
+Public key: AWS places it on the EC2 instance.
+Private key: You keep it on your computer, usually as a .pem file.
+
+When you connect, SSH checks that your private key matches the public key on the instance. 
